@@ -1,0 +1,18 @@
+#!/bin/bash
+# Marcos J Fabian <marcosfabian93@gmail.com>
+#
+# History 1st draft 01/20/2022
+# Testing BASH scripting. For fun :D
+# 2022 January template
+echo
+echo
+clear
+sleep 2
+echo
+echo
+echo "Remotely connecting to MPACT.STUDIO via SSH as mfabian!"
+echo
+sleep 2
+echo "Connection is completed, welcome to Linode VPS"
+sleep 2
+sudo ssh -i ~/.ssh/mfabian.laptop mfabian@mpact.studio
